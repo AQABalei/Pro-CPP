@@ -1,0 +1,2 @@
+>test header
+AGCT AAA CTGA

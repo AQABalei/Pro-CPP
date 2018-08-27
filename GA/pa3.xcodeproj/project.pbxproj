@@ -1,0 +1,1188 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		6F465F4956754BFA884266FA /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 8D7513E578A14974B1EEDA45 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				B512F175EEF04B1E84F57BBA /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		8930CF8BAEA74123B5EDF482 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 0EB966CFF81A4E32B0BD2028 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				39B35FFF0C214AC0BAA6FC85 /* CMake Rules */,
+			);
+			dependencies = (
+				0670136C87E7449CAEF5024F /* PBXTargetDependency */,
+				3A7D7BEA7F5541BEBD0CB555 /* PBXTargetDependency */,
+				8F1110893BBE41D59B9A1A48 /* PBXTargetDependency */,
+				0A2EAE016BD842819F60DCAD /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		437000A7752E479F882B1953 /* NW.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2239FEA0638A436ABFE2F6B2 /* NW.cpp */; };
+		5F828A1D4F964E34B57F34F6 /* SrcMain.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 474C9C2CBE314B9AA510AC8B /* SrcMain.cpp */; };
+		B5073DD8F8BB441D9688994E /* Main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B7969715A4344983AC100A3E /* Main.cpp */; };
+		C022603027C442789125232A /* Parser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8F72CB4A5DEF4018BD0E4721 /* Parser.cpp */; };
+		D5E1DB3D2B68459985C2CADF /* GradedTests.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 56FEABBE9FCD4F37A37241E4 /* GradedTests.cpp */; };
+		DB379B37565B4264A2C111F5 /* Translator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4F5430B7D251468EB414B88E /* Translator.cpp */; };
+		EA674D18439F4054B9309564 /* Catch.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 96C25445C5DC4292871D00B6 /* Catch.cpp */; };
+		F484BBD0C04747AC8D325FA2 /* StudentTests.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B83BB98FDCC64F45824E2C9E /* StudentTests.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1DAA8D9F2F2343ACAD8DE79A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0E85E457FAD44FECA681C66A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3128C37C51F04C73A303ABE6;
+			remoteInfo = tests;
+		};
+		2719DA593EFC4B088F24DADA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0E85E457FAD44FECA681C66A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BBB404B7F9224BA081E3580E;
+			remoteInfo = src;
+		};
+		3981806AE9EE4B6286A24387 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0E85E457FAD44FECA681C66A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F5E01CF02B24AFD8103865D;
+			remoteInfo = main;
+		};
+		720B2F8586184B4E9CBB2BF9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0E85E457FAD44FECA681C66A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BBB404B7F9224BA081E3580E;
+			remoteInfo = src;
+		};
+		7378970ACF404A5FBF206BFA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0E85E457FAD44FECA681C66A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6F465F4956754BFA884266FA;
+			remoteInfo = ZERO_CHECK;
+		};
+		751D3B1F14A1436C8F77E002 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0E85E457FAD44FECA681C66A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6F465F4956754BFA884266FA;
+			remoteInfo = ZERO_CHECK;
+		};
+		91429F08AD2B453C9BB0D1B4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0E85E457FAD44FECA681C66A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6F465F4956754BFA884266FA;
+			remoteInfo = ZERO_CHECK;
+		};
+		9AD3020798124AB79106AD36 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0E85E457FAD44FECA681C66A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6F465F4956754BFA884266FA;
+			remoteInfo = ZERO_CHECK;
+		};
+		E5E181E9FF43404F97109D03 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0E85E457FAD44FECA681C66A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BBB404B7F9224BA081E3580E;
+			remoteInfo = src;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		031278A7FF7F44A0AEE770C6 /* tests */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = tests; sourceTree = BUILT_PRODUCTS_DIR; };
+		2239FEA0638A436ABFE2F6B2 /* NW.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = NW.cpp; path = src/NW.cpp; sourceTree = SOURCE_ROOT; };
+		474C9C2CBE314B9AA510AC8B /* SrcMain.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = SrcMain.cpp; path = src/SrcMain.cpp; sourceTree = SOURCE_ROOT; };
+		4F5430B7D251468EB414B88E /* Translator.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Translator.cpp; path = src/Translator.cpp; sourceTree = SOURCE_ROOT; };
+		5511D8DA01B945379803F734 /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; name = CMakeLists.txt; path = tests/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		56FEABBE9FCD4F37A37241E4 /* GradedTests.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = GradedTests.cpp; path = tests/GradedTests.cpp; sourceTree = SOURCE_ROOT; };
+		5CD92FE39CC046C0BA5063E2 /* SrcMain.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = SrcMain.h; path = src/SrcMain.h; sourceTree = SOURCE_ROOT; };
+		80FD361EE30E4D65BDE47281 /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; name = CMakeLists.txt; path = src/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		8F72CB4A5DEF4018BD0E4721 /* Parser.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Parser.cpp; path = src/Parser.cpp; sourceTree = SOURCE_ROOT; };
+		96C25445C5DC4292871D00B6 /* Catch.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Catch.cpp; path = tests/Catch.cpp; sourceTree = SOURCE_ROOT; };
+		9EEBE0EBF3CD42198FBFB9D9 /* Translator.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Translator.h; path = src/Translator.h; sourceTree = SOURCE_ROOT; };
+		B117FB94DB134A978BAB18C1 /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		B7969715A4344983AC100A3E /* Main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; path = Main.cpp; sourceTree = SOURCE_ROOT; };
+		B83BB98FDCC64F45824E2C9E /* StudentTests.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = StudentTests.cpp; path = tests/StudentTests.cpp; sourceTree = SOURCE_ROOT; };
+		CD399B7E1B1F45E6BB7B2BD1 /* NW.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = NW.h; path = src/NW.h; sourceTree = SOURCE_ROOT; };
+		CE2D295B12514CFE96119F8C /* main */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = main; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6C321B6E6EA44AF968B8E7F /* libsrc.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libsrc.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBF3B07921E84DEA82DA8D90 /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		DE80DB61507B44D59C22B7CE /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		ED0C62524B2548BEB7ADFB3A /* Parser.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Parser.h; path = src/Parser.h; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		365B503B72CD48A989797554 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				96C25445C5DC4292871D00B6 /* Catch.cpp */,
+				56FEABBE9FCD4F37A37241E4 /* GradedTests.cpp */,
+				B83BB98FDCC64F45824E2C9E /* StudentTests.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		427E1CC122BA4F91BD68E102 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				444786498D164C8B927959FD /* Source Files */,
+				7B674D000B20429F88C034C6 /* Header Files */,
+				80FD361EE30E4D65BDE47281 /* CMakeLists.txt */,
+			);
+			name = src;
+			sourceTree = "<group>";
+		};
+		444786498D164C8B927959FD /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				474C9C2CBE314B9AA510AC8B /* SrcMain.cpp */,
+				8F72CB4A5DEF4018BD0E4721 /* Parser.cpp */,
+				4F5430B7D251468EB414B88E /* Translator.cpp */,
+				2239FEA0638A436ABFE2F6B2 /* NW.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		638D57B75DCC4DBE868187F5 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				B7969715A4344983AC100A3E /* Main.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		7B674D000B20429F88C034C6 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				5CD92FE39CC046C0BA5063E2 /* SrcMain.h */,
+				ED0C62524B2548BEB7ADFB3A /* Parser.h */,
+				9EEBE0EBF3CD42198FBFB9D9 /* Translator.h */,
+				CD399B7E1B1F45E6BB7B2BD1 /* NW.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		882D16F7DB0E4A2B9F20E1D2 /* main */ = {
+			isa = PBXGroup;
+			children = (
+				638D57B75DCC4DBE868187F5 /* Source Files */,
+				DBF3B07921E84DEA82DA8D90 /* CMakeLists.txt */,
+			);
+			name = main;
+			sourceTree = "<group>";
+		};
+		ABC6A3D863BF4ECE90EE3ADC /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				CD9A436F79804EDF959ABCD4 /* CMake Rules */,
+				DE80DB61507B44D59C22B7CE /* CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		AD4BE2CF17764EEC929D2FE8 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		CD9A436F79804EDF959ABCD4 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		D02B5FDC61434ECCA10BAC7B = {
+			isa = PBXGroup;
+			children = (
+				882D16F7DB0E4A2B9F20E1D2 /* main */,
+				ABC6A3D863BF4ECE90EE3ADC /* ALL_BUILD */,
+				FB33B2C2BCBB4A24B15D2BFD /* ZERO_CHECK */,
+				427E1CC122BA4F91BD68E102 /* src */,
+				F4EAC35C44724020B7F574CB /* tests */,
+				F044022ED694418BA6FFB5A5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F044022ED694418BA6FFB5A5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE2D295B12514CFE96119F8C /* main */,
+				D6C321B6E6EA44AF968B8E7F /* libsrc.a */,
+				031278A7FF7F44A0AEE770C6 /* tests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F4EAC35C44724020B7F574CB /* tests */ = {
+			isa = PBXGroup;
+			children = (
+				365B503B72CD48A989797554 /* Source Files */,
+				5511D8DA01B945379803F734 /* CMakeLists.txt */,
+			);
+			name = tests;
+			sourceTree = "<group>";
+		};
+		FB33B2C2BCBB4A24B15D2BFD /* ZERO_CHECK */ = {
+			isa = PBXGroup;
+			children = (
+				AD4BE2CF17764EEC929D2FE8 /* CMake Rules */,
+				B117FB94DB134A978BAB18C1 /* CMakeLists.txt */,
+			);
+			name = ZERO_CHECK;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1F5E01CF02B24AFD8103865D /* main */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F88713046AC485499522AE8 /* Build configuration list for PBXNativeTarget "main" */;
+			buildPhases = (
+				B7522B07ADD64DF88650D287 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1CCF734EAC434F48854BA736 /* PBXTargetDependency */,
+				9677A2C60BEE4C68AD08B45E /* PBXTargetDependency */,
+			);
+			name = main;
+			productName = main;
+			productReference = CE2D295B12514CFE96119F8C /* main */;
+			productType = "com.apple.product-type.tool";
+		};
+		3128C37C51F04C73A303ABE6 /* tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 224C4841C2FC4EB695B92088 /* Build configuration list for PBXNativeTarget "tests" */;
+			buildPhases = (
+				54B3E56642F04DE4B1213F88 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				78A49102A81548D7AF0D593C /* PBXTargetDependency */,
+				A9286C53CE994C7A8077DA1F /* PBXTargetDependency */,
+			);
+			name = tests;
+			productName = tests;
+			productReference = 031278A7FF7F44A0AEE770C6 /* tests */;
+			productType = "com.apple.product-type.tool";
+		};
+		BBB404B7F9224BA081E3580E /* src */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66143C5E54F24082B199A027 /* Build configuration list for PBXNativeTarget "src" */;
+			buildPhases = (
+				47F5256944E6468E8A5455C1 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				177B2704D0F249A48FD63222 /* PBXTargetDependency */,
+			);
+			name = src;
+			productName = src;
+			productReference = D6C321B6E6EA44AF968B8E7F /* libsrc.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0E85E457FAD44FECA681C66A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 0920;
+			};
+			buildConfigurationList = 1BA1F672E57F41B899AB94E2 /* Build configuration list for PBXProject "pa3" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D02B5FDC61434ECCA10BAC7B;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8930CF8BAEA74123B5EDF482 /* ALL_BUILD */,
+				6F465F4956754BFA884266FA /* ZERO_CHECK */,
+				1F5E01CF02B24AFD8103865D /* main */,
+				BBB404B7F9224BA081E3580E /* src */,
+				3128C37C51F04C73A303ABE6 /* tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		39B35FFF0C214AC0BAA6FC85 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/zhongchu/Desktop/itp435/pa3-Dontmovedad -f /Users/zhongchu/Desktop/itp435/pa3-Dontmovedad/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		B512F175EEF04B1E84F57BBA /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/zhongchu/Desktop/itp435/pa3-Dontmovedad -f /Users/zhongchu/Desktop/itp435/pa3-Dontmovedad/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		47F5256944E6468E8A5455C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				437000A7752E479F882B1953 /* NW.cpp in Sources */,
+				C022603027C442789125232A /* Parser.cpp in Sources */,
+				5F828A1D4F964E34B57F34F6 /* SrcMain.cpp in Sources */,
+				DB379B37565B4264A2C111F5 /* Translator.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54B3E56642F04DE4B1213F88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA674D18439F4054B9309564 /* Catch.cpp in Sources */,
+				D5E1DB3D2B68459985C2CADF /* GradedTests.cpp in Sources */,
+				F484BBD0C04747AC8D325FA2 /* StudentTests.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7522B07ADD64DF88650D287 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5073DD8F8BB441D9688994E /* Main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0670136C87E7449CAEF5024F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1F5E01CF02B24AFD8103865D /* main */;
+			targetProxy = 3981806AE9EE4B6286A24387 /* PBXContainerItemProxy */;
+		};
+		0A2EAE016BD842819F60DCAD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6F465F4956754BFA884266FA /* ZERO_CHECK */;
+			targetProxy = 91429F08AD2B453C9BB0D1B4 /* PBXContainerItemProxy */;
+		};
+		177B2704D0F249A48FD63222 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6F465F4956754BFA884266FA /* ZERO_CHECK */;
+			targetProxy = 9AD3020798124AB79106AD36 /* PBXContainerItemProxy */;
+		};
+		1CCF734EAC434F48854BA736 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BBB404B7F9224BA081E3580E /* src */;
+			targetProxy = 720B2F8586184B4E9CBB2BF9 /* PBXContainerItemProxy */;
+		};
+		3A7D7BEA7F5541BEBD0CB555 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BBB404B7F9224BA081E3580E /* src */;
+			targetProxy = 2719DA593EFC4B088F24DADA /* PBXContainerItemProxy */;
+		};
+		78A49102A81548D7AF0D593C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BBB404B7F9224BA081E3580E /* src */;
+			targetProxy = E5E181E9FF43404F97109D03 /* PBXContainerItemProxy */;
+		};
+		8F1110893BBE41D59B9A1A48 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3128C37C51F04C73A303ABE6 /* tests */;
+			targetProxy = 1DAA8D9F2F2343ACAD8DE79A /* PBXContainerItemProxy */;
+		};
+		9677A2C60BEE4C68AD08B45E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6F465F4956754BFA884266FA /* ZERO_CHECK */;
+			targetProxy = 7378970ACF404A5FBF206BFA /* PBXContainerItemProxy */;
+		};
+		A9286C53CE994C7A8077DA1F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6F465F4956754BFA884266FA /* ZERO_CHECK */;
+			targetProxy = 751D3B1F14A1436C8F77E002 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0514EBD044AB46069F59C221 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk;
+				SYMROOT = "/Users/zhongchu/Desktop/itp435/pa3-Dontmovedad/build";
+			};
+			name = Release;
+		};
+		17EE1794679F47E398405B95 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk;
+				SYMROOT = "/Users/zhongchu/Desktop/itp435/pa3-Dontmovedad/build";
+			};
+			name = RelWithDebInfo;
+		};
+		23B4618CABFF451DA182B664 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = "/Users/zhongchu/Desktop/itp435/pa3-Dontmovedad/src";
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "   '-std=gnu++14'  ";
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"/Users/zhongchu/Desktop/itp435/pa3-Dontmovedad/src/Debug/libsrc.a",
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = tests;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/zhongchu/Desktop/itp435/pa3-Dontmovedad/tests";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Debug;
+		};
+		3CF1F2D7C0B14B4A8D7748F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk;
+				SYMROOT = "/Users/zhongchu/Desktop/itp435/pa3-Dontmovedad/build";
+			};
+			name = Debug;
+		};
+		4C58369EE40E47D7BE5C55BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = "/Users/zhongchu/Desktop/itp435/pa3-Dontmovedad/src";
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/zhongchu/Desktop/itp435/pa3-Dontmovedad";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Debug;
+		};
+		527EAB23C57B4F4E8639FD88 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = "/Users/zhongchu/Desktop/itp435/pa3-Dontmovedad/src";
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNDEBUG",
+					"'-std=gnu++14'",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"/Users/zhongchu/Desktop/itp435/pa3-Dontmovedad/src/RelWithDebInfo/libsrc.a",
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = tests;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/zhongchu/Desktop/itp435/pa3-Dontmovedad/tests";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = RelWithDebInfo;
+		};
+		592452F375DA4D349EE2A533 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = "/Users/zhongchu/Desktop/itp435/pa3-Dontmovedad/src";
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/zhongchu/Desktop/itp435/pa3-Dontmovedad";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Release;
+		};
+		5B38298F2D5A40A990E52843 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = "/Users/zhongchu/Desktop/itp435/pa3-Dontmovedad/src";
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNDEBUG",
+					"'-std=gnu++14'",
+				);
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = src;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/zhongchu/Desktop/itp435/pa3-Dontmovedad/src";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = RelWithDebInfo;
+		};
+		6B30D1966F0141F6AAF1C94E /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk;
+				SYMROOT = "/Users/zhongchu/Desktop/itp435/pa3-Dontmovedad/build";
+			};
+			name = MinSizeRel;
+		};
+		7250FABD7FD3490FB4D2FA02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = "/Users/zhongchu/Desktop/itp435/pa3-Dontmovedad/src";
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNDEBUG",
+					"'-std=gnu++14'",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"/Users/zhongchu/Desktop/itp435/pa3-Dontmovedad/src/Release/libsrc.a",
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = tests;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/zhongchu/Desktop/itp435/pa3-Dontmovedad/tests";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Release;
+		};
+		802E1319BF7D4406AAAD25C6 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = "/Users/zhongchu/Desktop/itp435/pa3-Dontmovedad/src";
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNDEBUG",
+					"'-std=gnu++14'",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"/Users/zhongchu/Desktop/itp435/pa3-Dontmovedad/src/RelWithDebInfo/libsrc.a",
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = main;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/zhongchu/Desktop/itp435/pa3-Dontmovedad";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = RelWithDebInfo;
+		};
+		88613708FA5C49459916E9ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = "/Users/zhongchu/Desktop/itp435/pa3-Dontmovedad/src";
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/zhongchu/Desktop/itp435/pa3-Dontmovedad";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Debug;
+		};
+		8A3AEF805128435BB2561195 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = "/Users/zhongchu/Desktop/itp435/pa3-Dontmovedad/src";
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/zhongchu/Desktop/itp435/pa3-Dontmovedad";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = MinSizeRel;
+		};
+		8E2F362BD20A419CB58FA265 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = "/Users/zhongchu/Desktop/itp435/pa3-Dontmovedad/src";
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/zhongchu/Desktop/itp435/pa3-Dontmovedad";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = RelWithDebInfo;
+		};
+		A3168C57BD544CC7B255282F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = "/Users/zhongchu/Desktop/itp435/pa3-Dontmovedad/src";
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNDEBUG",
+					"'-std=gnu++14'",
+				);
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = src;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/zhongchu/Desktop/itp435/pa3-Dontmovedad/src";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Release;
+		};
+		A4A06536594645208F80F193 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = "/Users/zhongchu/Desktop/itp435/pa3-Dontmovedad/src";
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNDEBUG",
+					"'-std=gnu++14'",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"/Users/zhongchu/Desktop/itp435/pa3-Dontmovedad/src/MinSizeRel/libsrc.a",
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = main;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/zhongchu/Desktop/itp435/pa3-Dontmovedad";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = MinSizeRel;
+		};
+		AC93CF0A98104AE88C9036D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = "/Users/zhongchu/Desktop/itp435/pa3-Dontmovedad/src";
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "   '-std=gnu++14'  ";
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"/Users/zhongchu/Desktop/itp435/pa3-Dontmovedad/src/Debug/libsrc.a",
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = main;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/zhongchu/Desktop/itp435/pa3-Dontmovedad";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Debug;
+		};
+		AE73F22124224BECAAC60EF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = "/Users/zhongchu/Desktop/itp435/pa3-Dontmovedad/src";
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNDEBUG",
+					"'-std=gnu++14'",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"/Users/zhongchu/Desktop/itp435/pa3-Dontmovedad/src/Release/libsrc.a",
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = main;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/zhongchu/Desktop/itp435/pa3-Dontmovedad";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Release;
+		};
+		BCED5AF88FEB443C8E31B8CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = "/Users/zhongchu/Desktop/itp435/pa3-Dontmovedad/src";
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/zhongchu/Desktop/itp435/pa3-Dontmovedad";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Release;
+		};
+		C7018DAC70B347388FF1B239 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = "/Users/zhongchu/Desktop/itp435/pa3-Dontmovedad/src";
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNDEBUG",
+					"'-std=gnu++14'",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"/Users/zhongchu/Desktop/itp435/pa3-Dontmovedad/src/MinSizeRel/libsrc.a",
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = tests;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/zhongchu/Desktop/itp435/pa3-Dontmovedad/tests";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = MinSizeRel;
+		};
+		C772611E79574286B39E1BE5 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = "/Users/zhongchu/Desktop/itp435/pa3-Dontmovedad/src";
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/zhongchu/Desktop/itp435/pa3-Dontmovedad";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = MinSizeRel;
+		};
+		CEB86D86429E4CB28EAB6467 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = "/Users/zhongchu/Desktop/itp435/pa3-Dontmovedad/src";
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "   '-std=gnu++14'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = src;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/zhongchu/Desktop/itp435/pa3-Dontmovedad/src";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Debug;
+		};
+		FBE160D90A8C4628B50AD8FB /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = "/Users/zhongchu/Desktop/itp435/pa3-Dontmovedad/src";
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/zhongchu/Desktop/itp435/pa3-Dontmovedad";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = RelWithDebInfo;
+		};
+		FFF3B165CE3E4934B080C694 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = "/Users/zhongchu/Desktop/itp435/pa3-Dontmovedad/src";
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNDEBUG",
+					"'-std=gnu++14'",
+				);
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = src;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/zhongchu/Desktop/itp435/pa3-Dontmovedad/src";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = MinSizeRel;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0EB966CFF81A4E32B0BD2028 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88613708FA5C49459916E9ED /* Debug */,
+				BCED5AF88FEB443C8E31B8CA /* Release */,
+				C772611E79574286B39E1BE5 /* MinSizeRel */,
+				FBE160D90A8C4628B50AD8FB /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		1BA1F672E57F41B899AB94E2 /* Build configuration list for PBXProject "pa3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CF1F2D7C0B14B4A8D7748F7 /* Debug */,
+				0514EBD044AB46069F59C221 /* Release */,
+				6B30D1966F0141F6AAF1C94E /* MinSizeRel */,
+				17EE1794679F47E398405B95 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		224C4841C2FC4EB695B92088 /* Build configuration list for PBXNativeTarget "tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23B4618CABFF451DA182B664 /* Debug */,
+				7250FABD7FD3490FB4D2FA02 /* Release */,
+				C7018DAC70B347388FF1B239 /* MinSizeRel */,
+				527EAB23C57B4F4E8639FD88 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		66143C5E54F24082B199A027 /* Build configuration list for PBXNativeTarget "src" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEB86D86429E4CB28EAB6467 /* Debug */,
+				A3168C57BD544CC7B255282F /* Release */,
+				FFF3B165CE3E4934B080C694 /* MinSizeRel */,
+				5B38298F2D5A40A990E52843 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		6F88713046AC485499522AE8 /* Build configuration list for PBXNativeTarget "main" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC93CF0A98104AE88C9036D3 /* Debug */,
+				AE73F22124224BECAAC60EF7 /* Release */,
+				A4A06536594645208F80F193 /* MinSizeRel */,
+				802E1319BF7D4406AAAD25C6 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		8D7513E578A14974B1EEDA45 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C58369EE40E47D7BE5C55BD /* Debug */,
+				592452F375DA4D349EE2A533 /* Release */,
+				8A3AEF805128435BB2561195 /* MinSizeRel */,
+				8E2F362BD20A419CB58FA265 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0E85E457FAD44FECA681C66A /* Project object */;
+}

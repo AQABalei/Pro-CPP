@@ -1,0 +1,1 @@
+Files match.result and sampleoutput/Ebola_Zaire_vs_Reston_Comparison.result are identical
