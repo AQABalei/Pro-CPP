@@ -1,0 +1,1 @@
+Files out.zom and expected/the_governor.optimized.zom are identical

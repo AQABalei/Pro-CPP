@@ -1,0 +1,5 @@
+/Users/zhongchu/Desktop/itp435/pa7-Dontmovedad/CMakeFiles/main.dir
+/Users/zhongchu/Desktop/itp435/pa7-Dontmovedad/CMakeFiles/ALL_BUILD.dir
+/Users/zhongchu/Desktop/itp435/pa7-Dontmovedad/CMakeFiles/ZERO_CHECK.dir
+/Users/zhongchu/Desktop/itp435/pa7-Dontmovedad/src/CMakeFiles/src.dir
+/Users/zhongchu/Desktop/itp435/pa7-Dontmovedad/tests/CMakeFiles/tests.dir
