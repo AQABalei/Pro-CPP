@@ -1,0 +1,1 @@
+Files solved.txt and expected/full-solved.txt are identical
