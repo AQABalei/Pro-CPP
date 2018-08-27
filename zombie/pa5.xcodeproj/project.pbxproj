@@ -1,0 +1,1216 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		1160E963933A470BAA80530B /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = B8E9AE16AF7C4E288B1A3A45 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				2656ACA11DC24F6EB8D9114E /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		14D269544FA7458C8FBFD9FF /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 3AEE9BE3F53B43758B6FD789 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				0DD2583C6A634DB985536C5D /* CMake Rules */,
+			);
+			dependencies = (
+				6CD331F3945F442C8D41EEEB /* PBXTargetDependency */,
+				8CC9EAC6046E4149BA0D9527 /* PBXTargetDependency */,
+				E528E883DDE8401880B8AF49 /* PBXTargetDependency */,
+				DF5A2A9A11B4462CBB662F4F /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		006A66860DFB4365B4EAB64D /* /Users/zhongchu/Desktop/itp435/pa5-Dontmovedad/src/RectShape.cpp */ = {isa = PBXBuildFile; fileRef = C0D983D554C64A9A8766C794 /* /Users/zhongchu/Desktop/itp435/pa5-Dontmovedad/src/RectShape.cpp */; };
+		02C54D01F51E4AA28AC27F2B /* /Users/zhongchu/Desktop/itp435/pa5-Dontmovedad/Main.cpp */ = {isa = PBXBuildFile; fileRef = B3E9613F471F47DD897B972E /* /Users/zhongchu/Desktop/itp435/pa5-Dontmovedad/Main.cpp */; };
+		03BD81DF500B43A4A0742FE1 /* /Users/zhongchu/Desktop/itp435/pa5-Dontmovedad/src/Command.h */ = {isa = PBXBuildFile; fileRef = 4665D402A38F48E0A8355E95 /* /Users/zhongchu/Desktop/itp435/pa5-Dontmovedad/src/Command.h */; };
+		0A96B7C1637A480B9CD71761 /* /Users/zhongchu/Desktop/itp435/pa5-Dontmovedad/src/MoveCommand.h */ = {isa = PBXBuildFile; fileRef = 5DAF2656AFEA4DC8940187F9 /* /Users/zhongchu/Desktop/itp435/pa5-Dontmovedad/src/MoveCommand.h */; };
+		0FFF73BFFB614ECFA0C21238 /* /Users/zhongchu/Desktop/itp435/pa5-Dontmovedad/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 8F6C091D4D7240DE8CBA9F56 /* /Users/zhongchu/Desktop/itp435/pa5-Dontmovedad/CMakeLists.txt */; };
+		2051E9AE7FB843168DD332B5 /* /Users/zhongchu/Desktop/itp435/pa5-Dontmovedad/src/EllipseShape.cpp */ = {isa = PBXBuildFile; fileRef = 04E8AC264ACB4824A3CBAB02 /* /Users/zhongchu/Desktop/itp435/pa5-Dontmovedad/src/EllipseShape.cpp */; };
+		22815327C1C44428B8FB010C /* /Users/zhongchu/Desktop/itp435/pa5-Dontmovedad/src/DeleteCommand.h */ = {isa = PBXBuildFile; fileRef = 1A2D6B8BB00847C4BE191152 /* /Users/zhongchu/Desktop/itp435/pa5-Dontmovedad/src/DeleteCommand.h */; };
+		26009B54794A487F964C8500 /* /Users/zhongchu/Desktop/itp435/pa5-Dontmovedad/src/PaintDrawPanel.cpp */ = {isa = PBXBuildFile; fileRef = 36B02035C8F3471C993E2985 /* /Users/zhongchu/Desktop/itp435/pa5-Dontmovedad/src/PaintDrawPanel.cpp */; };
+		38478C2F7C7A45EC9614E061 /* /Users/zhongchu/Desktop/itp435/pa5-Dontmovedad/src/Cursors.cpp */ = {isa = PBXBuildFile; fileRef = 041476EF238F4385A55FBD76 /* /Users/zhongchu/Desktop/itp435/pa5-Dontmovedad/src/Cursors.cpp */; };
+		3B3814383BF44DFB8ED267E9 /* /Users/zhongchu/Desktop/itp435/pa5-Dontmovedad/src/SetPenCommand.cpp */ = {isa = PBXBuildFile; fileRef = 94177CEE92A34F509F44AC1C /* /Users/zhongchu/Desktop/itp435/pa5-Dontmovedad/src/SetPenCommand.cpp */; };
+		3DBBB289A116470EA90DAD6C /* /Users/zhongchu/Desktop/itp435/pa5-Dontmovedad/src/SetBrushCommand.cpp */ = {isa = PBXBuildFile; fileRef = 2BAAF10084EA417598B84215 /* /Users/zhongchu/Desktop/itp435/pa5-Dontmovedad/src/SetBrushCommand.cpp */; };
+		4BA6B27953A94BB591965E8E /* /Users/zhongchu/Desktop/itp435/pa5-Dontmovedad/src/Line.cpp */ = {isa = PBXBuildFile; fileRef = EC3598E8F49E43BF929F51D2 /* /Users/zhongchu/Desktop/itp435/pa5-Dontmovedad/src/Line.cpp */; };
+		6A1D96CEBF634C72A853E291 /* /Users/zhongchu/Desktop/itp435/pa5-Dontmovedad/src/EllipseShape.h */ = {isa = PBXBuildFile; fileRef = E04F54B4C0A34B32BDBC945F /* /Users/zhongchu/Desktop/itp435/pa5-Dontmovedad/src/EllipseShape.h */; };
+		6AB5EB89C8384C73A5CD8595 /* /Users/zhongchu/Desktop/itp435/pa5-Dontmovedad/src/SetPenCommand.h */ = {isa = PBXBuildFile; fileRef = 7770BE8B26F344329424AB65 /* /Users/zhongchu/Desktop/itp435/pa5-Dontmovedad/src/SetPenCommand.h */; };
+		6BBAA34B32D348FF86CEF0EA /* /Users/zhongchu/Desktop/itp435/pa5-Dontmovedad/src/MoveCommand.cpp */ = {isa = PBXBuildFile; fileRef = 2F1236C5657745439DCE08E9 /* /Users/zhongchu/Desktop/itp435/pa5-Dontmovedad/src/MoveCommand.cpp */; };
+		7DBD91530824415AA2B254CC /* /Users/zhongchu/Desktop/itp435/pa5-Dontmovedad/src/PaintModel.cpp */ = {isa = PBXBuildFile; fileRef = 358DF3A316524430B506CB64 /* /Users/zhongchu/Desktop/itp435/pa5-Dontmovedad/src/PaintModel.cpp */; };
+		7E4F3598D033487B98490EF2 /* /Users/zhongchu/Desktop/itp435/pa5-Dontmovedad/src/Shape.cpp */ = {isa = PBXBuildFile; fileRef = 45874C8E82D542E8A4AE99DB /* /Users/zhongchu/Desktop/itp435/pa5-Dontmovedad/src/Shape.cpp */; };
+		7EAABC19C11045F1B976DC00 /* /Users/zhongchu/Desktop/itp435/pa5-Dontmovedad/tests/Catch.cpp */ = {isa = PBXBuildFile; fileRef = C1BD78F5ED36452D82BAC499 /* /Users/zhongchu/Desktop/itp435/pa5-Dontmovedad/tests/Catch.cpp */; };
+		81718426CD5B4CA9A369A60B /* /Users/zhongchu/Desktop/itp435/pa5-Dontmovedad/tests/GradedTests.cpp */ = {isa = PBXBuildFile; fileRef = 5DF4FA39E2274634918F8CB3 /* /Users/zhongchu/Desktop/itp435/pa5-Dontmovedad/tests/GradedTests.cpp */; };
+		82C8F0704AF248DEB9C0913A /* /Users/zhongchu/Desktop/itp435/pa5-Dontmovedad/src/DeleteCommand.cpp */ = {isa = PBXBuildFile; fileRef = BA2B0F077E7343D6A4C5B2BC /* /Users/zhongchu/Desktop/itp435/pa5-Dontmovedad/src/DeleteCommand.cpp */; };
+		870B2B26C6C044B6945E8759 /* /Users/zhongchu/Desktop/itp435/pa5-Dontmovedad/src/PaintDrawPanel.h */ = {isa = PBXBuildFile; fileRef = CA5FC40516714886BC428463 /* /Users/zhongchu/Desktop/itp435/pa5-Dontmovedad/src/PaintDrawPanel.h */; };
+		97C0DB5E7A3D4C259D679381 /* /Users/zhongchu/Desktop/itp435/pa5-Dontmovedad/src/PencilShape.h */ = {isa = PBXBuildFile; fileRef = 32F9190E40734A469D29C5C4 /* /Users/zhongchu/Desktop/itp435/pa5-Dontmovedad/src/PencilShape.h */; };
+		99179B159CF14FFF918724C2 /* /Users/zhongchu/Desktop/itp435/pa5-Dontmovedad/src/SetBrushCommand.h */ = {isa = PBXBuildFile; fileRef = 39E4EAD8A6BA4388B210DB57 /* /Users/zhongchu/Desktop/itp435/pa5-Dontmovedad/src/SetBrushCommand.h */; };
+		A4599139E9BD468793DBC3B6 /* /Users/zhongchu/Desktop/itp435/pa5-Dontmovedad/src/EventID.h */ = {isa = PBXBuildFile; fileRef = EFB285FADCD1449D8AC16BFA /* /Users/zhongchu/Desktop/itp435/pa5-Dontmovedad/src/EventID.h */; };
+		AC0B6DE098C9464C8524BCC6 /* /Users/zhongchu/Desktop/itp435/pa5-Dontmovedad/src/PaintFrame.cpp */ = {isa = PBXBuildFile; fileRef = 534E62DAD2E74DAE962B68E8 /* /Users/zhongchu/Desktop/itp435/pa5-Dontmovedad/src/PaintFrame.cpp */; };
+		AC1DD84D0A534EB4B00BDF75 /* /Users/zhongchu/Desktop/itp435/pa5-Dontmovedad/src/Cursors.h */ = {isa = PBXBuildFile; fileRef = 4B5FE29A4C3B4D0684CEF509 /* /Users/zhongchu/Desktop/itp435/pa5-Dontmovedad/src/Cursors.h */; };
+		ADB15B1F501448BAABB1EFCA /* /Users/zhongchu/Desktop/itp435/pa5-Dontmovedad/src/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 71ABC4FEE40949F8A4A09CB9 /* /Users/zhongchu/Desktop/itp435/pa5-Dontmovedad/src/CMakeLists.txt */; };
+		C652DDD3583249A5BA36E84A /* /Users/zhongchu/Desktop/itp435/pa5-Dontmovedad/src/PaintModel.h */ = {isa = PBXBuildFile; fileRef = 09469AA058E44049A020C70D /* /Users/zhongchu/Desktop/itp435/pa5-Dontmovedad/src/PaintModel.h */; };
+		C9ECCF91D8504DC4B89679B3 /* /Users/zhongchu/Desktop/itp435/pa5-Dontmovedad/src/Line.h */ = {isa = PBXBuildFile; fileRef = 360295BE65C9408CB41148E8 /* /Users/zhongchu/Desktop/itp435/pa5-Dontmovedad/src/Line.h */; };
+		D168A198F3FB48EF9A0CA980 /* /Users/zhongchu/Desktop/itp435/pa5-Dontmovedad/tests/StudentTests.cpp */ = {isa = PBXBuildFile; fileRef = 01AC7432A5964F218ED7C553 /* /Users/zhongchu/Desktop/itp435/pa5-Dontmovedad/tests/StudentTests.cpp */; };
+		D2B2BF0E68D545FDB72270F5 /* /Users/zhongchu/Desktop/itp435/pa5-Dontmovedad/src/PaintFrame.h */ = {isa = PBXBuildFile; fileRef = 4744C629F4294E1CA22260C6 /* /Users/zhongchu/Desktop/itp435/pa5-Dontmovedad/src/PaintFrame.h */; };
+		DA40C4AFC6934DDBB04F519F /* /Users/zhongchu/Desktop/itp435/pa5-Dontmovedad/src/DrawCommand.h */ = {isa = PBXBuildFile; fileRef = 2F7BAD325F804B7695CD542B /* /Users/zhongchu/Desktop/itp435/pa5-Dontmovedad/src/DrawCommand.h */; };
+		E281E8D8A1B34C14B5CFD46A /* /Users/zhongchu/Desktop/itp435/pa5-Dontmovedad/src/Command.cpp */ = {isa = PBXBuildFile; fileRef = B2C5F583F0C748CBA4E9C97C /* /Users/zhongchu/Desktop/itp435/pa5-Dontmovedad/src/Command.cpp */; };
+		ED6183CAB146452899DD2E73 /* /Users/zhongchu/Desktop/itp435/pa5-Dontmovedad/src/PaintApp.cpp */ = {isa = PBXBuildFile; fileRef = 37B0464601B740AF94E1A43E /* /Users/zhongchu/Desktop/itp435/pa5-Dontmovedad/src/PaintApp.cpp */; };
+		EE2C6F336DBE46339DE324AF /* /Users/zhongchu/Desktop/itp435/pa5-Dontmovedad/tests/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 5B10CDF083064696B3416A31 /* /Users/zhongchu/Desktop/itp435/pa5-Dontmovedad/tests/CMakeLists.txt */; };
+		F0FC298CFC2B4BC8A33B6B08 /* /Users/zhongchu/Desktop/itp435/pa5-Dontmovedad/src/RectShape.h */ = {isa = PBXBuildFile; fileRef = B766693519F14EB8BD574648 /* /Users/zhongchu/Desktop/itp435/pa5-Dontmovedad/src/RectShape.h */; };
+		F230B2B993E441CE82DC83B3 /* /Users/zhongchu/Desktop/itp435/pa5-Dontmovedad/src/PaintApp.h */ = {isa = PBXBuildFile; fileRef = 5BE62E8346C94D5DAACA57F2 /* /Users/zhongchu/Desktop/itp435/pa5-Dontmovedad/src/PaintApp.h */; };
+		F593CDE9BF684213955C22F8 /* /Users/zhongchu/Desktop/itp435/pa5-Dontmovedad/src/PencilShape.cpp */ = {isa = PBXBuildFile; fileRef = 70387C4FE14944688254B6E4 /* /Users/zhongchu/Desktop/itp435/pa5-Dontmovedad/src/PencilShape.cpp */; };
+		F84CE93BE3BC42A984FA36FC /* /Users/zhongchu/Desktop/itp435/pa5-Dontmovedad/src/DrawCommand.cpp */ = {isa = PBXBuildFile; fileRef = C5F02E44A0134310BF30F7A7 /* /Users/zhongchu/Desktop/itp435/pa5-Dontmovedad/src/DrawCommand.cpp */; };
+		FFCF89C82FC54D6E8E4E9AC9 /* /Users/zhongchu/Desktop/itp435/pa5-Dontmovedad/src/Shape.h */ = {isa = PBXBuildFile; fileRef = 825C98E75A714047B99A976C /* /Users/zhongchu/Desktop/itp435/pa5-Dontmovedad/src/Shape.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		348012F2353B41179325F981 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		46FEF32ACD454BD4BF5A36A1 /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		E6BCC0FEA8E14FF0B6BCE5AE /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		E841F56E8FB04E95B8D7F799 /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		0BC1EACA90F04D8B8F8D2F7F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 19DD6950443246E693B3592E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1160E963933A470BAA80530B;
+			remoteInfo = ZERO_CHECK;
+		};
+		10B45ECB11D3470299A444F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 19DD6950443246E693B3592E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 64B5D4C35A964E1A86CEEC16;
+			remoteInfo = src;
+		};
+		1AF0B84547344545847FD4B6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 19DD6950443246E693B3592E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1160E963933A470BAA80530B;
+			remoteInfo = ZERO_CHECK;
+		};
+		74DD2FD830D74E9DB83BEE5E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 19DD6950443246E693B3592E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1160E963933A470BAA80530B;
+			remoteInfo = ZERO_CHECK;
+		};
+		7CBED3E7FA4347869BD0D3A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 19DD6950443246E693B3592E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1160E963933A470BAA80530B;
+			remoteInfo = ZERO_CHECK;
+		};
+		9832E6DA112147BC90E71F9D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 19DD6950443246E693B3592E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 64B5D4C35A964E1A86CEEC16;
+			remoteInfo = src;
+		};
+		AE88798310E243A39C6AF740 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 19DD6950443246E693B3592E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 64B5D4C35A964E1A86CEEC16;
+			remoteInfo = src;
+		};
+		B9D4079ED0404CD2A0A2ED92 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 19DD6950443246E693B3592E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 37186B3E3D12442781D6893C;
+			remoteInfo = tests;
+		};
+		C6820A224B3147D4A6F0F630 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 19DD6950443246E693B3592E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E983F375E76C409AA48F969A;
+			remoteInfo = main;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01AC7432A5964F218ED7C553 /* /Users/zhongchu/Desktop/itp435/pa5-Dontmovedad/tests/StudentTests.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = StudentTests.cpp; path = tests/StudentTests.cpp; sourceTree = SOURCE_ROOT; };
+		041476EF238F4385A55FBD76 /* /Users/zhongchu/Desktop/itp435/pa5-Dontmovedad/src/Cursors.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Cursors.cpp; path = src/Cursors.cpp; sourceTree = SOURCE_ROOT; };
+		04E8AC264ACB4824A3CBAB02 /* /Users/zhongchu/Desktop/itp435/pa5-Dontmovedad/src/EllipseShape.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = EllipseShape.cpp; path = src/EllipseShape.cpp; sourceTree = SOURCE_ROOT; };
+		09469AA058E44049A020C70D /* /Users/zhongchu/Desktop/itp435/pa5-Dontmovedad/src/PaintModel.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = PaintModel.h; path = src/PaintModel.h; sourceTree = SOURCE_ROOT; };
+		1A2D6B8BB00847C4BE191152 /* /Users/zhongchu/Desktop/itp435/pa5-Dontmovedad/src/DeleteCommand.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = DeleteCommand.h; path = src/DeleteCommand.h; sourceTree = SOURCE_ROOT; };
+		24AD7B7497EB49A3AB21E049 /* main */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = main; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BAAF10084EA417598B84215 /* /Users/zhongchu/Desktop/itp435/pa5-Dontmovedad/src/SetBrushCommand.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = SetBrushCommand.cpp; path = src/SetBrushCommand.cpp; sourceTree = SOURCE_ROOT; };
+		2F1236C5657745439DCE08E9 /* /Users/zhongchu/Desktop/itp435/pa5-Dontmovedad/src/MoveCommand.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = MoveCommand.cpp; path = src/MoveCommand.cpp; sourceTree = SOURCE_ROOT; };
+		2F7BAD325F804B7695CD542B /* /Users/zhongchu/Desktop/itp435/pa5-Dontmovedad/src/DrawCommand.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = DrawCommand.h; path = src/DrawCommand.h; sourceTree = SOURCE_ROOT; };
+		32F9190E40734A469D29C5C4 /* /Users/zhongchu/Desktop/itp435/pa5-Dontmovedad/src/PencilShape.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = PencilShape.h; path = src/PencilShape.h; sourceTree = SOURCE_ROOT; };
+		358DF3A316524430B506CB64 /* /Users/zhongchu/Desktop/itp435/pa5-Dontmovedad/src/PaintModel.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = PaintModel.cpp; path = src/PaintModel.cpp; sourceTree = SOURCE_ROOT; };
+		360295BE65C9408CB41148E8 /* /Users/zhongchu/Desktop/itp435/pa5-Dontmovedad/src/Line.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Line.h; path = src/Line.h; sourceTree = SOURCE_ROOT; };
+		36B02035C8F3471C993E2985 /* /Users/zhongchu/Desktop/itp435/pa5-Dontmovedad/src/PaintDrawPanel.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = PaintDrawPanel.cpp; path = src/PaintDrawPanel.cpp; sourceTree = SOURCE_ROOT; };
+		37B0464601B740AF94E1A43E /* /Users/zhongchu/Desktop/itp435/pa5-Dontmovedad/src/PaintApp.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = PaintApp.cpp; path = src/PaintApp.cpp; sourceTree = SOURCE_ROOT; };
+		39E4EAD8A6BA4388B210DB57 /* /Users/zhongchu/Desktop/itp435/pa5-Dontmovedad/src/SetBrushCommand.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = SetBrushCommand.h; path = src/SetBrushCommand.h; sourceTree = SOURCE_ROOT; };
+		45874C8E82D542E8A4AE99DB /* /Users/zhongchu/Desktop/itp435/pa5-Dontmovedad/src/Shape.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Shape.cpp; path = src/Shape.cpp; sourceTree = SOURCE_ROOT; };
+		4665D402A38F48E0A8355E95 /* /Users/zhongchu/Desktop/itp435/pa5-Dontmovedad/src/Command.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Command.h; path = src/Command.h; sourceTree = SOURCE_ROOT; };
+		4744C629F4294E1CA22260C6 /* /Users/zhongchu/Desktop/itp435/pa5-Dontmovedad/src/PaintFrame.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = PaintFrame.h; path = src/PaintFrame.h; sourceTree = SOURCE_ROOT; };
+		4B5FE29A4C3B4D0684CEF509 /* /Users/zhongchu/Desktop/itp435/pa5-Dontmovedad/src/Cursors.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Cursors.h; path = src/Cursors.h; sourceTree = SOURCE_ROOT; };
+		534E62DAD2E74DAE962B68E8 /* /Users/zhongchu/Desktop/itp435/pa5-Dontmovedad/src/PaintFrame.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = PaintFrame.cpp; path = src/PaintFrame.cpp; sourceTree = SOURCE_ROOT; };
+		5B10CDF083064696B3416A31 /* /Users/zhongchu/Desktop/itp435/pa5-Dontmovedad/tests/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = tests/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		5BE62E8346C94D5DAACA57F2 /* /Users/zhongchu/Desktop/itp435/pa5-Dontmovedad/src/PaintApp.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = PaintApp.h; path = src/PaintApp.h; sourceTree = SOURCE_ROOT; };
+		5DAF2656AFEA4DC8940187F9 /* /Users/zhongchu/Desktop/itp435/pa5-Dontmovedad/src/MoveCommand.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = MoveCommand.h; path = src/MoveCommand.h; sourceTree = SOURCE_ROOT; };
+		5DF4FA39E2274634918F8CB3 /* /Users/zhongchu/Desktop/itp435/pa5-Dontmovedad/tests/GradedTests.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = GradedTests.cpp; path = tests/GradedTests.cpp; sourceTree = SOURCE_ROOT; };
+		6E302AE32C8D48A780E9C80D /* src */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libsrc.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		70387C4FE14944688254B6E4 /* /Users/zhongchu/Desktop/itp435/pa5-Dontmovedad/src/PencilShape.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = PencilShape.cpp; path = src/PencilShape.cpp; sourceTree = SOURCE_ROOT; };
+		71ABC4FEE40949F8A4A09CB9 /* /Users/zhongchu/Desktop/itp435/pa5-Dontmovedad/src/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = src/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		746AB0BD1A05470A8C44A730 /* /Users/zhongchu/Desktop/itp435/pa5-Dontmovedad/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		7770BE8B26F344329424AB65 /* /Users/zhongchu/Desktop/itp435/pa5-Dontmovedad/src/SetPenCommand.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = SetPenCommand.h; path = src/SetPenCommand.h; sourceTree = SOURCE_ROOT; };
+		80E1A8C817AC46AD82DCF692 /* /Users/zhongchu/Desktop/itp435/pa5-Dontmovedad/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		825C98E75A714047B99A976C /* /Users/zhongchu/Desktop/itp435/pa5-Dontmovedad/src/Shape.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Shape.h; path = src/Shape.h; sourceTree = SOURCE_ROOT; };
+		8F6C091D4D7240DE8CBA9F56 /* /Users/zhongchu/Desktop/itp435/pa5-Dontmovedad/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		94177CEE92A34F509F44AC1C /* /Users/zhongchu/Desktop/itp435/pa5-Dontmovedad/src/SetPenCommand.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = SetPenCommand.cpp; path = src/SetPenCommand.cpp; sourceTree = SOURCE_ROOT; };
+		B2C5F583F0C748CBA4E9C97C /* /Users/zhongchu/Desktop/itp435/pa5-Dontmovedad/src/Command.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Command.cpp; path = src/Command.cpp; sourceTree = SOURCE_ROOT; };
+		B3E9613F471F47DD897B972E /* /Users/zhongchu/Desktop/itp435/pa5-Dontmovedad/Main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Main.cpp; path = Main.cpp; sourceTree = SOURCE_ROOT; };
+		B766693519F14EB8BD574648 /* /Users/zhongchu/Desktop/itp435/pa5-Dontmovedad/src/RectShape.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = RectShape.h; path = src/RectShape.h; sourceTree = SOURCE_ROOT; };
+		BA2B0F077E7343D6A4C5B2BC /* /Users/zhongchu/Desktop/itp435/pa5-Dontmovedad/src/DeleteCommand.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DeleteCommand.cpp; path = src/DeleteCommand.cpp; sourceTree = SOURCE_ROOT; };
+		C0D983D554C64A9A8766C794 /* /Users/zhongchu/Desktop/itp435/pa5-Dontmovedad/src/RectShape.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = RectShape.cpp; path = src/RectShape.cpp; sourceTree = SOURCE_ROOT; };
+		C1BD78F5ED36452D82BAC499 /* /Users/zhongchu/Desktop/itp435/pa5-Dontmovedad/tests/Catch.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Catch.cpp; path = tests/Catch.cpp; sourceTree = SOURCE_ROOT; };
+		C5F02E44A0134310BF30F7A7 /* /Users/zhongchu/Desktop/itp435/pa5-Dontmovedad/src/DrawCommand.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DrawCommand.cpp; path = src/DrawCommand.cpp; sourceTree = SOURCE_ROOT; };
+		CA5FC40516714886BC428463 /* /Users/zhongchu/Desktop/itp435/pa5-Dontmovedad/src/PaintDrawPanel.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = PaintDrawPanel.h; path = src/PaintDrawPanel.h; sourceTree = SOURCE_ROOT; };
+		E04F54B4C0A34B32BDBC945F /* /Users/zhongchu/Desktop/itp435/pa5-Dontmovedad/src/EllipseShape.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = EllipseShape.h; path = src/EllipseShape.h; sourceTree = SOURCE_ROOT; };
+		EC3598E8F49E43BF929F51D2 /* /Users/zhongchu/Desktop/itp435/pa5-Dontmovedad/src/Line.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Line.cpp; path = src/Line.cpp; sourceTree = SOURCE_ROOT; };
+		EE868D0DAE394FF89B0DD2F5 /* tests */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = tests; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFB285FADCD1449D8AC16BFA /* /Users/zhongchu/Desktop/itp435/pa5-Dontmovedad/src/EventID.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = EventID.h; path = src/EventID.h; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		0668B28210594040B1F7DB3E /* src */ = {
+			isa = PBXGroup;
+			children = (
+				EE79CE52863542AAB44C667E /* Source Files */,
+				FCA560DF2CD646778EBC0E91 /* Header Files */,
+				71ABC4FEE40949F8A4A09CB9 /* /Users/zhongchu/Desktop/itp435/pa5-Dontmovedad/src/CMakeLists.txt */,
+			);
+			name = src;
+			sourceTree = "<group>";
+		};
+		24757382A6E947488B23367B /* main */ = {
+			isa = PBXGroup;
+			children = (
+				7D862B1C9CFE4893A31CEB3C /* Source Files */,
+				8F6C091D4D7240DE8CBA9F56 /* /Users/zhongchu/Desktop/itp435/pa5-Dontmovedad/CMakeLists.txt */,
+			);
+			name = main;
+			sourceTree = "<group>";
+		};
+		2FE6BEC106A647C09EAFFA8E /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				C1BD78F5ED36452D82BAC499 /* /Users/zhongchu/Desktop/itp435/pa5-Dontmovedad/tests/Catch.cpp */,
+				5DF4FA39E2274634918F8CB3 /* /Users/zhongchu/Desktop/itp435/pa5-Dontmovedad/tests/GradedTests.cpp */,
+				01AC7432A5964F218ED7C553 /* /Users/zhongchu/Desktop/itp435/pa5-Dontmovedad/tests/StudentTests.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		3CDA2E2F20E948F281E096DD /* tests */ = {
+			isa = PBXGroup;
+			children = (
+				2FE6BEC106A647C09EAFFA8E /* Source Files */,
+				5B10CDF083064696B3416A31 /* /Users/zhongchu/Desktop/itp435/pa5-Dontmovedad/tests/CMakeLists.txt */,
+			);
+			name = tests;
+			sourceTree = "<group>";
+		};
+		4CEDB6D7A3E347709ED74C70 = {
+			isa = PBXGroup;
+			children = (
+				24757382A6E947488B23367B /* main */,
+				FD4D279A22754229BDA2B1DF /* ALL_BUILD */,
+				F5ABFC5C26514556AD0A9321 /* ZERO_CHECK */,
+				0668B28210594040B1F7DB3E /* src */,
+				3CDA2E2F20E948F281E096DD /* tests */,
+				6B8E1A1B47E9439AA1C92466 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6B8E1A1B47E9439AA1C92466 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				24AD7B7497EB49A3AB21E049 /* main */,
+				6E302AE32C8D48A780E9C80D /* src */,
+				EE868D0DAE394FF89B0DD2F5 /* tests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7C2BB8EC5B224F86837E46BE /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		7D862B1C9CFE4893A31CEB3C /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				B3E9613F471F47DD897B972E /* /Users/zhongchu/Desktop/itp435/pa5-Dontmovedad/Main.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		EE79CE52863542AAB44C667E /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				B2C5F583F0C748CBA4E9C97C /* /Users/zhongchu/Desktop/itp435/pa5-Dontmovedad/src/Command.cpp */,
+				041476EF238F4385A55FBD76 /* /Users/zhongchu/Desktop/itp435/pa5-Dontmovedad/src/Cursors.cpp */,
+				BA2B0F077E7343D6A4C5B2BC /* /Users/zhongchu/Desktop/itp435/pa5-Dontmovedad/src/DeleteCommand.cpp */,
+				C5F02E44A0134310BF30F7A7 /* /Users/zhongchu/Desktop/itp435/pa5-Dontmovedad/src/DrawCommand.cpp */,
+				04E8AC264ACB4824A3CBAB02 /* /Users/zhongchu/Desktop/itp435/pa5-Dontmovedad/src/EllipseShape.cpp */,
+				EC3598E8F49E43BF929F51D2 /* /Users/zhongchu/Desktop/itp435/pa5-Dontmovedad/src/Line.cpp */,
+				2F1236C5657745439DCE08E9 /* /Users/zhongchu/Desktop/itp435/pa5-Dontmovedad/src/MoveCommand.cpp */,
+				37B0464601B740AF94E1A43E /* /Users/zhongchu/Desktop/itp435/pa5-Dontmovedad/src/PaintApp.cpp */,
+				36B02035C8F3471C993E2985 /* /Users/zhongchu/Desktop/itp435/pa5-Dontmovedad/src/PaintDrawPanel.cpp */,
+				534E62DAD2E74DAE962B68E8 /* /Users/zhongchu/Desktop/itp435/pa5-Dontmovedad/src/PaintFrame.cpp */,
+				358DF3A316524430B506CB64 /* /Users/zhongchu/Desktop/itp435/pa5-Dontmovedad/src/PaintModel.cpp */,
+				70387C4FE14944688254B6E4 /* /Users/zhongchu/Desktop/itp435/pa5-Dontmovedad/src/PencilShape.cpp */,
+				C0D983D554C64A9A8766C794 /* /Users/zhongchu/Desktop/itp435/pa5-Dontmovedad/src/RectShape.cpp */,
+				2BAAF10084EA417598B84215 /* /Users/zhongchu/Desktop/itp435/pa5-Dontmovedad/src/SetBrushCommand.cpp */,
+				94177CEE92A34F509F44AC1C /* /Users/zhongchu/Desktop/itp435/pa5-Dontmovedad/src/SetPenCommand.cpp */,
+				45874C8E82D542E8A4AE99DB /* /Users/zhongchu/Desktop/itp435/pa5-Dontmovedad/src/Shape.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		F5ABFC5C26514556AD0A9321 /* ZERO_CHECK */ = {
+			isa = PBXGroup;
+			children = (
+				7C2BB8EC5B224F86837E46BE /* CMake Rules */,
+				746AB0BD1A05470A8C44A730 /* /Users/zhongchu/Desktop/itp435/pa5-Dontmovedad/CMakeLists.txt */,
+			);
+			name = ZERO_CHECK;
+			sourceTree = "<group>";
+		};
+		FB20D4CF747F4DBB89DDFA93 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		FCA560DF2CD646778EBC0E91 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				4665D402A38F48E0A8355E95 /* /Users/zhongchu/Desktop/itp435/pa5-Dontmovedad/src/Command.h */,
+				4B5FE29A4C3B4D0684CEF509 /* /Users/zhongchu/Desktop/itp435/pa5-Dontmovedad/src/Cursors.h */,
+				1A2D6B8BB00847C4BE191152 /* /Users/zhongchu/Desktop/itp435/pa5-Dontmovedad/src/DeleteCommand.h */,
+				2F7BAD325F804B7695CD542B /* /Users/zhongchu/Desktop/itp435/pa5-Dontmovedad/src/DrawCommand.h */,
+				E04F54B4C0A34B32BDBC945F /* /Users/zhongchu/Desktop/itp435/pa5-Dontmovedad/src/EllipseShape.h */,
+				EFB285FADCD1449D8AC16BFA /* /Users/zhongchu/Desktop/itp435/pa5-Dontmovedad/src/EventID.h */,
+				360295BE65C9408CB41148E8 /* /Users/zhongchu/Desktop/itp435/pa5-Dontmovedad/src/Line.h */,
+				5DAF2656AFEA4DC8940187F9 /* /Users/zhongchu/Desktop/itp435/pa5-Dontmovedad/src/MoveCommand.h */,
+				5BE62E8346C94D5DAACA57F2 /* /Users/zhongchu/Desktop/itp435/pa5-Dontmovedad/src/PaintApp.h */,
+				CA5FC40516714886BC428463 /* /Users/zhongchu/Desktop/itp435/pa5-Dontmovedad/src/PaintDrawPanel.h */,
+				4744C629F4294E1CA22260C6 /* /Users/zhongchu/Desktop/itp435/pa5-Dontmovedad/src/PaintFrame.h */,
+				09469AA058E44049A020C70D /* /Users/zhongchu/Desktop/itp435/pa5-Dontmovedad/src/PaintModel.h */,
+				32F9190E40734A469D29C5C4 /* /Users/zhongchu/Desktop/itp435/pa5-Dontmovedad/src/PencilShape.h */,
+				B766693519F14EB8BD574648 /* /Users/zhongchu/Desktop/itp435/pa5-Dontmovedad/src/RectShape.h */,
+				39E4EAD8A6BA4388B210DB57 /* /Users/zhongchu/Desktop/itp435/pa5-Dontmovedad/src/SetBrushCommand.h */,
+				7770BE8B26F344329424AB65 /* /Users/zhongchu/Desktop/itp435/pa5-Dontmovedad/src/SetPenCommand.h */,
+				825C98E75A714047B99A976C /* /Users/zhongchu/Desktop/itp435/pa5-Dontmovedad/src/Shape.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		FD4D279A22754229BDA2B1DF /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				FB20D4CF747F4DBB89DDFA93 /* CMake Rules */,
+				80E1A8C817AC46AD82DCF692 /* /Users/zhongchu/Desktop/itp435/pa5-Dontmovedad/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		37186B3E3D12442781D6893C /* tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F595BAED6894CD8832F7F39 /* Build configuration list for PBXNativeTarget "tests" */;
+			buildPhases = (
+				2AE7186376C74EDF963835FC /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F1079977DB2D4D1DA9AFB8DB /* PBXTargetDependency */,
+				45A1F22011474F06AAB9748A /* PBXTargetDependency */,
+			);
+			name = tests;
+			productName = tests;
+			productReference = EE868D0DAE394FF89B0DD2F5 /* tests */;
+			productType = "com.apple.product-type.tool";
+		};
+		64B5D4C35A964E1A86CEEC16 /* src */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7BDCC9A35CA64F3ABB042B34 /* Build configuration list for PBXNativeTarget "src" */;
+			buildPhases = (
+				B830AB8475964BE199193CE1 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9A2300D9794C43609D798830 /* PBXTargetDependency */,
+			);
+			name = src;
+			productName = src;
+			productReference = 6E302AE32C8D48A780E9C80D /* src */;
+			productType = "com.apple.product-type.library.static";
+		};
+		E983F375E76C409AA48F969A /* main */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27ACEA5DB0E345FB9A8C1FD3 /* Build configuration list for PBXNativeTarget "main" */;
+			buildPhases = (
+				B92BFB9E43924A5F9F8228BD /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				693784E12F6C4AA9A460C89D /* PBXTargetDependency */,
+				EC1789D18E6C438A9EC14355 /* PBXTargetDependency */,
+			);
+			name = main;
+			productName = main;
+			productReference = 24AD7B7497EB49A3AB21E049 /* main */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		19DD6950443246E693B3592E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 0920;
+			};
+			buildConfigurationList = 194A758B19BF48F6BFF1FF90 /* Build configuration list for PBXProject "pa5" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				348012F2353B41179325F981 /* Debug */,
+				E6BCC0FEA8E14FF0B6BCE5AE /* Release */,
+				46FEF32ACD454BD4BF5A36A1 /* MinSizeRel */,
+				E841F56E8FB04E95B8D7F799 /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 4CEDB6D7A3E347709ED74C70;
+			projectDirPath = .;
+			projectRoot = "";
+			targets = (
+				14D269544FA7458C8FBFD9FF /* ALL_BUILD */,
+				1160E963933A470BAA80530B /* ZERO_CHECK */,
+				E983F375E76C409AA48F969A /* main */,
+				64B5D4C35A964E1A86CEEC16 /* src */,
+				37186B3E3D12442781D6893C /* tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0DD2583C6A634DB985536C5D /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/zhongchu/Desktop/itp435/pa5-Dontmovedad -f /Users/zhongchu/Desktop/itp435/pa5-Dontmovedad/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		2416D35C92A94A5EA71CBA28 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		2656ACA11DC24F6EB8D9114E /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/zhongchu/Desktop/itp435/pa5-Dontmovedad -f /Users/zhongchu/Desktop/itp435/pa5-Dontmovedad/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		2C36D337E3334021B239AADA = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2AE7186376C74EDF963835FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EAABC19C11045F1B976DC00 /* /Users/zhongchu/Desktop/itp435/pa5-Dontmovedad/tests/Catch.cpp */,
+				81718426CD5B4CA9A369A60B /* /Users/zhongchu/Desktop/itp435/pa5-Dontmovedad/tests/GradedTests.cpp */,
+				D168A198F3FB48EF9A0CA980 /* /Users/zhongchu/Desktop/itp435/pa5-Dontmovedad/tests/StudentTests.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B830AB8475964BE199193CE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E281E8D8A1B34C14B5CFD46A /* /Users/zhongchu/Desktop/itp435/pa5-Dontmovedad/src/Command.cpp */,
+				38478C2F7C7A45EC9614E061 /* /Users/zhongchu/Desktop/itp435/pa5-Dontmovedad/src/Cursors.cpp */,
+				82C8F0704AF248DEB9C0913A /* /Users/zhongchu/Desktop/itp435/pa5-Dontmovedad/src/DeleteCommand.cpp */,
+				F84CE93BE3BC42A984FA36FC /* /Users/zhongchu/Desktop/itp435/pa5-Dontmovedad/src/DrawCommand.cpp */,
+				2051E9AE7FB843168DD332B5 /* /Users/zhongchu/Desktop/itp435/pa5-Dontmovedad/src/EllipseShape.cpp */,
+				4BA6B27953A94BB591965E8E /* /Users/zhongchu/Desktop/itp435/pa5-Dontmovedad/src/Line.cpp */,
+				6BBAA34B32D348FF86CEF0EA /* /Users/zhongchu/Desktop/itp435/pa5-Dontmovedad/src/MoveCommand.cpp */,
+				ED6183CAB146452899DD2E73 /* /Users/zhongchu/Desktop/itp435/pa5-Dontmovedad/src/PaintApp.cpp */,
+				26009B54794A487F964C8500 /* /Users/zhongchu/Desktop/itp435/pa5-Dontmovedad/src/PaintDrawPanel.cpp */,
+				AC0B6DE098C9464C8524BCC6 /* /Users/zhongchu/Desktop/itp435/pa5-Dontmovedad/src/PaintFrame.cpp */,
+				7DBD91530824415AA2B254CC /* /Users/zhongchu/Desktop/itp435/pa5-Dontmovedad/src/PaintModel.cpp */,
+				F593CDE9BF684213955C22F8 /* /Users/zhongchu/Desktop/itp435/pa5-Dontmovedad/src/PencilShape.cpp */,
+				006A66860DFB4365B4EAB64D /* /Users/zhongchu/Desktop/itp435/pa5-Dontmovedad/src/RectShape.cpp */,
+				3DBBB289A116470EA90DAD6C /* /Users/zhongchu/Desktop/itp435/pa5-Dontmovedad/src/SetBrushCommand.cpp */,
+				3B3814383BF44DFB8ED267E9 /* /Users/zhongchu/Desktop/itp435/pa5-Dontmovedad/src/SetPenCommand.cpp */,
+				7E4F3598D033487B98490EF2 /* /Users/zhongchu/Desktop/itp435/pa5-Dontmovedad/src/Shape.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B92BFB9E43924A5F9F8228BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02C54D01F51E4AA28AC27F2B /* /Users/zhongchu/Desktop/itp435/pa5-Dontmovedad/Main.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		45A1F22011474F06AAB9748A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1160E963933A470BAA80530B /* ZERO_CHECK */;
+			targetProxy = 7CBED3E7FA4347869BD0D3A9 /* PBXContainerItemProxy */;
+		};
+		693784E12F6C4AA9A460C89D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 64B5D4C35A964E1A86CEEC16 /* src */;
+			targetProxy = 10B45ECB11D3470299A444F0 /* PBXContainerItemProxy */;
+		};
+		6CD331F3945F442C8D41EEEB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E983F375E76C409AA48F969A /* main */;
+			targetProxy = C6820A224B3147D4A6F0F630 /* PBXContainerItemProxy */;
+		};
+		8CC9EAC6046E4149BA0D9527 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 64B5D4C35A964E1A86CEEC16 /* src */;
+			targetProxy = 9832E6DA112147BC90E71F9D /* PBXContainerItemProxy */;
+		};
+		9A2300D9794C43609D798830 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1160E963933A470BAA80530B /* ZERO_CHECK */;
+			targetProxy = 0BC1EACA90F04D8B8F8D2F7F /* PBXContainerItemProxy */;
+		};
+		DF5A2A9A11B4462CBB662F4F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1160E963933A470BAA80530B /* ZERO_CHECK */;
+			targetProxy = 1AF0B84547344545847FD4B6 /* PBXContainerItemProxy */;
+		};
+		E528E883DDE8401880B8AF49 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 37186B3E3D12442781D6893C /* tests */;
+			targetProxy = B9D4079ED0404CD2A0A2ED92 /* PBXContainerItemProxy */;
+		};
+		EC1789D18E6C438A9EC14355 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1160E963933A470BAA80530B /* ZERO_CHECK */;
+			targetProxy = 74DD2FD830D74E9DB83BEE5E /* PBXContainerItemProxy */;
+		};
+		F1079977DB2D4D1DA9AFB8DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 64B5D4C35A964E1A86CEEC16 /* src */;
+			targetProxy = AE88798310E243A39C6AF740 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0D27E283F47142FB8E02DCF0 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'_FILE_OFFSET_BITS=64'",WXUSINGDLL,__WXMAC__,__WXOSX__,__WXOSX_COCOA__);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/zhongchu/Desktop/itp435/pa5-Dontmovedad/src");
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = /usr/local/lib;
+				LIBRARY_SEARCH_PATHS = " /usr/local/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/lib";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++14'  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/zhongchu/Desktop/itp435/pa5-Dontmovedad/src/MinSizeRel/libsrc.a -L/usr/local/lib -framework IOKit -framework Carbon -framework Cocoa -framework AudioToolbox -framework System -framework OpenGL -lwx_osx_cocoau_core-3.0 -lwx_baseu-3.0";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = tests;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/zhongchu/Desktop/itp435/pa5-Dontmovedad/tests";
+				SYSTEM_HEADER_SEARCH_PATHS = ("/usr/local/lib/wx/include/osx_cocoa-unicode-3.0","/usr/local/include/wx-3.0");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		1068A7145569448494C6E32F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/zhongchu/Desktop/itp435/pa5-Dontmovedad/src");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/zhongchu/Desktop/itp435/pa5-Dontmovedad";
+				SYSTEM_HEADER_SEARCH_PATHS = ("/usr/local/lib/wx/include/osx_cocoa-unicode-3.0","/usr/local/include/wx-3.0");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		2059A333EF494CCF84FD76E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk;
+				SYMROOT = "/Users/zhongchu/Desktop/itp435/pa5-Dontmovedad/build";
+			};
+			name = Debug;
+		};
+		2182C727D5BD40DE9EF82B7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk;
+				SYMROOT = "/Users/zhongchu/Desktop/itp435/pa5-Dontmovedad/build";
+			};
+			name = Release;
+		};
+		3220AFE34DAF47278C823A61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'_FILE_OFFSET_BITS=64'",WXUSINGDLL,__WXMAC__,__WXOSX__,__WXOSX_COCOA__);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/zhongchu/Desktop/itp435/pa5-Dontmovedad/src");
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = /usr/local/lib;
+				LIBRARY_SEARCH_PATHS = " /usr/local/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/lib";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++14'  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/zhongchu/Desktop/itp435/pa5-Dontmovedad/src/Release/libsrc.a -L/usr/local/lib -framework IOKit -framework Carbon -framework Cocoa -framework AudioToolbox -framework System -framework OpenGL -lwx_osx_cocoau_core-3.0 -lwx_baseu-3.0";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = main;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/zhongchu/Desktop/itp435/pa5-Dontmovedad";
+				SYSTEM_HEADER_SEARCH_PATHS = ("/usr/local/lib/wx/include/osx_cocoa-unicode-3.0","/usr/local/include/wx-3.0");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		4A54D08DC1D649BEB8F1E4F9 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'_FILE_OFFSET_BITS=64'",WXUSINGDLL,__WXMAC__,__WXOSX__,__WXOSX_COCOA__);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/zhongchu/Desktop/itp435/pa5-Dontmovedad/src");
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = /usr/local/lib;
+				LIBRARY_SEARCH_PATHS = " /usr/local/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/lib";
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=gnu++14'  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/zhongchu/Desktop/itp435/pa5-Dontmovedad/src/RelWithDebInfo/libsrc.a -L/usr/local/lib -framework IOKit -framework Carbon -framework Cocoa -framework AudioToolbox -framework System -framework OpenGL -lwx_osx_cocoau_core-3.0 -lwx_baseu-3.0";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = main;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/zhongchu/Desktop/itp435/pa5-Dontmovedad";
+				SYSTEM_HEADER_SEARCH_PATHS = ("/usr/local/lib/wx/include/osx_cocoa-unicode-3.0","/usr/local/include/wx-3.0");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		51C1015BAEF74711B3A8B12A /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/zhongchu/Desktop/itp435/pa5-Dontmovedad/src");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/zhongchu/Desktop/itp435/pa5-Dontmovedad";
+				SYSTEM_HEADER_SEARCH_PATHS = ("/usr/local/lib/wx/include/osx_cocoa-unicode-3.0","/usr/local/include/wx-3.0");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		5A5F31C20FF74134BE6691B5 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk;
+				SYMROOT = "/Users/zhongchu/Desktop/itp435/pa5-Dontmovedad/build";
+			};
+			name = MinSizeRel;
+		};
+		5EBA942A21A146B984ADA2AA /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'_FILE_OFFSET_BITS=64'",WXUSINGDLL,__WXMAC__,__WXOSX__,__WXOSX_COCOA__);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/zhongchu/Desktop/itp435/pa5-Dontmovedad/src");
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = /usr/local/lib;
+				LIBRARY_SEARCH_PATHS = " /usr/local/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/lib";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++14'  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/zhongchu/Desktop/itp435/pa5-Dontmovedad/src/MinSizeRel/libsrc.a -L/usr/local/lib -framework IOKit -framework Carbon -framework Cocoa -framework AudioToolbox -framework System -framework OpenGL -lwx_osx_cocoau_core-3.0 -lwx_baseu-3.0";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = main;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/zhongchu/Desktop/itp435/pa5-Dontmovedad";
+				SYSTEM_HEADER_SEARCH_PATHS = ("/usr/local/lib/wx/include/osx_cocoa-unicode-3.0","/usr/local/include/wx-3.0");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		6C50296C3CC4428385DF3523 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/zhongchu/Desktop/itp435/pa5-Dontmovedad/src");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/zhongchu/Desktop/itp435/pa5-Dontmovedad";
+				SYSTEM_HEADER_SEARCH_PATHS = ("/usr/local/lib/wx/include/osx_cocoa-unicode-3.0","/usr/local/include/wx-3.0");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		749570C21AE048C28313028E /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'_FILE_OFFSET_BITS=64'",WXUSINGDLL,__WXMAC__,__WXOSX__,__WXOSX_COCOA__);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/zhongchu/Desktop/itp435/pa5-Dontmovedad/src");
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = /usr/local/lib;
+				LIBRARY_SEARCH_PATHS = " /usr/local/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/lib";
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=gnu++14'  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/zhongchu/Desktop/itp435/pa5-Dontmovedad/src/RelWithDebInfo/libsrc.a -L/usr/local/lib -framework IOKit -framework Carbon -framework Cocoa -framework AudioToolbox -framework System -framework OpenGL -lwx_osx_cocoau_core-3.0 -lwx_baseu-3.0";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = tests;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/zhongchu/Desktop/itp435/pa5-Dontmovedad/tests";
+				SYSTEM_HEADER_SEARCH_PATHS = ("/usr/local/lib/wx/include/osx_cocoa-unicode-3.0","/usr/local/include/wx-3.0");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		7A747641D4AD499988F5E035 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/zhongchu/Desktop/itp435/pa5-Dontmovedad/src");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/zhongchu/Desktop/itp435/pa5-Dontmovedad";
+				SYSTEM_HEADER_SEARCH_PATHS = ("/usr/local/lib/wx/include/osx_cocoa-unicode-3.0","/usr/local/include/wx-3.0");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		7E94FDE3EFE94397B54212CF /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/zhongchu/Desktop/itp435/pa5-Dontmovedad/src");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/zhongchu/Desktop/itp435/pa5-Dontmovedad";
+				SYSTEM_HEADER_SEARCH_PATHS = ("/usr/local/lib/wx/include/osx_cocoa-unicode-3.0","/usr/local/include/wx-3.0");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		7F13E4DBB3DC4FCCA300A645 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'_FILE_OFFSET_BITS=64'",WXUSINGDLL,__WXMAC__,__WXOSX__,__WXOSX_COCOA__);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/zhongchu/Desktop/itp435/pa5-Dontmovedad/src");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++14'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = src;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/zhongchu/Desktop/itp435/pa5-Dontmovedad/src";
+				SYSTEM_HEADER_SEARCH_PATHS = ("/usr/local/lib/wx/include/osx_cocoa-unicode-3.0","/usr/local/include/wx-3.0");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		87A2DAF70857484BB5480084 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'_FILE_OFFSET_BITS=64'",WXUSINGDLL,__WXMAC__,__WXOSX__,__WXOSX_COCOA__);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/zhongchu/Desktop/itp435/pa5-Dontmovedad/src");
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = /usr/local/lib;
+				LIBRARY_SEARCH_PATHS = " /usr/local/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/lib";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++14'  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/zhongchu/Desktop/itp435/pa5-Dontmovedad/src/Release/libsrc.a -L/usr/local/lib -framework IOKit -framework Carbon -framework Cocoa -framework AudioToolbox -framework System -framework OpenGL -lwx_osx_cocoau_core-3.0 -lwx_baseu-3.0";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = tests;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/zhongchu/Desktop/itp435/pa5-Dontmovedad/tests";
+				SYSTEM_HEADER_SEARCH_PATHS = ("/usr/local/lib/wx/include/osx_cocoa-unicode-3.0","/usr/local/include/wx-3.0");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		93C41EF3D4CD463396405E19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/zhongchu/Desktop/itp435/pa5-Dontmovedad/src");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/zhongchu/Desktop/itp435/pa5-Dontmovedad";
+				SYSTEM_HEADER_SEARCH_PATHS = ("/usr/local/lib/wx/include/osx_cocoa-unicode-3.0","/usr/local/include/wx-3.0");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		93C5D950AD304263A2CAB672 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk;
+				SYMROOT = "/Users/zhongchu/Desktop/itp435/pa5-Dontmovedad/build";
+			};
+			name = RelWithDebInfo;
+		};
+		9C89A25FE48C4FAC8D1F2865 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'_FILE_OFFSET_BITS=64'",WXUSINGDLL,__WXMAC__,__WXOSX__,__WXOSX_COCOA__);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/zhongchu/Desktop/itp435/pa5-Dontmovedad/src");
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = /usr/local/lib;
+				LIBRARY_SEARCH_PATHS = " /usr/local/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/lib";
+				OTHER_CPLUSPLUSFLAGS = "   '-std=gnu++14'  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/zhongchu/Desktop/itp435/pa5-Dontmovedad/src/Debug/libsrc.a -L/usr/local/lib -framework IOKit -framework Carbon -framework Cocoa -framework AudioToolbox -framework System -framework OpenGL -lwx_osx_cocoau_core-3.0 -lwx_baseu-3.0";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = main;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/zhongchu/Desktop/itp435/pa5-Dontmovedad";
+				SYSTEM_HEADER_SEARCH_PATHS = ("/usr/local/lib/wx/include/osx_cocoa-unicode-3.0","/usr/local/include/wx-3.0");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		B0A315613F694371ACFB29B4 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'_FILE_OFFSET_BITS=64'",WXUSINGDLL,__WXMAC__,__WXOSX__,__WXOSX_COCOA__);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/zhongchu/Desktop/itp435/pa5-Dontmovedad/src");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=gnu++14'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = src;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/zhongchu/Desktop/itp435/pa5-Dontmovedad/src";
+				SYSTEM_HEADER_SEARCH_PATHS = ("/usr/local/lib/wx/include/osx_cocoa-unicode-3.0","/usr/local/include/wx-3.0");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		B36D031BE16A4ED1AE7D1D20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'_FILE_OFFSET_BITS=64'",WXUSINGDLL,__WXMAC__,__WXOSX__,__WXOSX_COCOA__);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/zhongchu/Desktop/itp435/pa5-Dontmovedad/src");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++14'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = src;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/zhongchu/Desktop/itp435/pa5-Dontmovedad/src";
+				SYSTEM_HEADER_SEARCH_PATHS = ("/usr/local/lib/wx/include/osx_cocoa-unicode-3.0","/usr/local/include/wx-3.0");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		C2852589034B497FBC0FA08A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/zhongchu/Desktop/itp435/pa5-Dontmovedad/src");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/zhongchu/Desktop/itp435/pa5-Dontmovedad";
+				SYSTEM_HEADER_SEARCH_PATHS = ("/usr/local/lib/wx/include/osx_cocoa-unicode-3.0","/usr/local/include/wx-3.0");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		D3F352C7AE814D77A5167E93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'_FILE_OFFSET_BITS=64'",WXUSINGDLL,__WXMAC__,__WXOSX__,__WXOSX_COCOA__);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/zhongchu/Desktop/itp435/pa5-Dontmovedad/src");
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = /usr/local/lib;
+				LIBRARY_SEARCH_PATHS = " /usr/local/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/lib";
+				OTHER_CPLUSPLUSFLAGS = "   '-std=gnu++14'  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/zhongchu/Desktop/itp435/pa5-Dontmovedad/src/Debug/libsrc.a -L/usr/local/lib -framework IOKit -framework Carbon -framework Cocoa -framework AudioToolbox -framework System -framework OpenGL -lwx_osx_cocoau_core-3.0 -lwx_baseu-3.0";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = tests;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/zhongchu/Desktop/itp435/pa5-Dontmovedad/tests";
+				SYSTEM_HEADER_SEARCH_PATHS = ("/usr/local/lib/wx/include/osx_cocoa-unicode-3.0","/usr/local/include/wx-3.0");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		ED2FA9BB96FE4A298C672625 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'_FILE_OFFSET_BITS=64'",WXUSINGDLL,__WXMAC__,__WXOSX__,__WXOSX_COCOA__);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/zhongchu/Desktop/itp435/pa5-Dontmovedad/src");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "   '-std=gnu++14'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = src;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/zhongchu/Desktop/itp435/pa5-Dontmovedad/src";
+				SYSTEM_HEADER_SEARCH_PATHS = ("/usr/local/lib/wx/include/osx_cocoa-unicode-3.0","/usr/local/include/wx-3.0");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		F84C1081AE844759B75CEF38 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/zhongchu/Desktop/itp435/pa5-Dontmovedad/src");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/zhongchu/Desktop/itp435/pa5-Dontmovedad";
+				SYSTEM_HEADER_SEARCH_PATHS = ("/usr/local/lib/wx/include/osx_cocoa-unicode-3.0","/usr/local/include/wx-3.0");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0F595BAED6894CD8832F7F39 /* Build configuration list for PBXNativeTarget "tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3F352C7AE814D77A5167E93 /* Debug */,
+				87A2DAF70857484BB5480084 /* Release */,
+				0D27E283F47142FB8E02DCF0 /* MinSizeRel */,
+				749570C21AE048C28313028E /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		194A758B19BF48F6BFF1FF90 /* Build configuration list for PBXProject "pa5" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2059A333EF494CCF84FD76E9 /* Debug */,
+				2182C727D5BD40DE9EF82B7A /* Release */,
+				5A5F31C20FF74134BE6691B5 /* MinSizeRel */,
+				93C5D950AD304263A2CAB672 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		27ACEA5DB0E345FB9A8C1FD3 /* Build configuration list for PBXNativeTarget "main" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C89A25FE48C4FAC8D1F2865 /* Debug */,
+				3220AFE34DAF47278C823A61 /* Release */,
+				5EBA942A21A146B984ADA2AA /* MinSizeRel */,
+				4A54D08DC1D649BEB8F1E4F9 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		3AEE9BE3F53B43758B6FD789 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93C41EF3D4CD463396405E19 /* Debug */,
+				C2852589034B497FBC0FA08A /* Release */,
+				7A747641D4AD499988F5E035 /* MinSizeRel */,
+				7E94FDE3EFE94397B54212CF /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		7BDCC9A35CA64F3ABB042B34 /* Build configuration list for PBXNativeTarget "src" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED2FA9BB96FE4A298C672625 /* Debug */,
+				B36D031BE16A4ED1AE7D1D20 /* Release */,
+				7F13E4DBB3DC4FCCA300A645 /* MinSizeRel */,
+				B0A315613F694371ACFB29B4 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		B8E9AE16AF7C4E288B1A3A45 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1068A7145569448494C6E32F /* Debug */,
+				6C50296C3CC4428385DF3523 /* Release */,
+				51C1015BAEF74711B3A8B12A /* MinSizeRel */,
+				F84C1081AE844759B75CEF38 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 19DD6950443246E693B3592E /* Project object */;
+}
